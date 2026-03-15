@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             
             // Close mobile menu if open
-            if(navLinks.classList.contains('active')) {
+            if(navLinks && navLinks.classList.contains('active')) {
                 navLinks.classList.remove('active');
             }
 
